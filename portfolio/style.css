@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}   
+body
+{
+    background: #222;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont
+{
+  width:300px;
+  aspect-ratio: 1;
+  border: 2px solid white;
+  background: #55f;
+  display: grid;
+  place-items: center;
+  font-size: 1em;
+  position: relative;
+  border-radius: 20px;
+}
+/* .pic{
+  height: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid white;
+} */
+img{
+  height: 110px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  position: absolute;
+  inset: 5% 30%;
+  border: 5px solid wheat;
+}
+.typo
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  
+}
+.skill
+{
+  position: absolute;
+  inset: 70% 10%;
+}
+#rh{
+  width: 100px;
+  background: blue;
+}
